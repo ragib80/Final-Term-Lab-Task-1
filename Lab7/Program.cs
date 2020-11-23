@@ -52,14 +52,6 @@ namespace Lab7
             oa.Withdraw(20000);
             Console.WriteLine("------------------------------------------------------------------------");
 
-            /* FixedAccount f = new FixedAccount("shahriar", "002", 2000, 3, 2);
-             f.ShowInfo();
-             f.Deposit(200);
-             f.Withdraw(500);
-
-             */
-
-
 
         }
     }
