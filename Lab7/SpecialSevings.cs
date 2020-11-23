@@ -22,8 +22,6 @@ namespace Lab7
         }
 
 
-      
-
         public override void Withdraw(double amount)
         {
             Console.WriteLine("");

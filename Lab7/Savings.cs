@@ -6,12 +6,12 @@ namespace Lab7
 {
     class Savings:Account
     {
-       int transCount=0;
-       /* public int TransCount
+       private int transCount=0;
+        public int TransCount
         {
             get { return transCount; }
             set { transCount = value; }
-        }*/
+        }
         public Savings()
         {
 
@@ -20,8 +20,6 @@ namespace Lab7
         {
            
         }
-
-
 
 
         override public void Withdraw(double amount)
@@ -41,16 +39,10 @@ namespace Lab7
                 Console.WriteLine("");
                 Console.WriteLine("Sorry Widraw of "+amount+" is Unsucceessful,  Remain balance is : " + Balance );
 
-
             }
 
         }
 
-
-
-
-
-
-    }
+     }
     }
 
